@@ -33,7 +33,7 @@ spec:
         carto.run/workload-name: py-gitops
     spec:
       containers:
-      - image: ghcr.io/amagaeru/tkg211-hol04/workloads/py-gitops-tap-openshift-w01-s005@sha256:8952ae9de77ab60f3698722ad5e05c4b56fce27b8c6e157bf85b208c4b0b1b7c
+      - image: ghcr.io/amagaeru/py-gitops-tap-openshift-w01-s005@sha256:71a1d808561e48fecf96379dfeb79201d9410a861bec861d9406f6ac35dce97e
         name: workload
         resources: {}
         securityContext:
