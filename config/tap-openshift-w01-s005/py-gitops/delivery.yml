@@ -23,7 +23,7 @@ spec:
           developer-conventions/add-source-image-label
           spring-boot-convention/auto-configure-actuators-check
           spring-boot-convention/app-live-view-appflavour-check
-        developer.apps.tanzu.vmware.com/image-source-digest: ghcr.io/amagaeru/tap/source-codes:latest@sha256:0cabb37ad8f1f5ec4e164a8f3f88275a214d4e1f7380d9fe809ccac97f683179
+        developer.apps.tanzu.vmware.com/image-source-digest: ghcr.io/amagaeru/tap/source-codes:latest@sha256:88b0e91ca0836339b750ec44caf2299c6ae3ebfb448f7c79a65966b54c84e38e
         developer.conventions/target-containers: workload
       labels:
         app.kubernetes.io/component: run
@@ -33,7 +33,7 @@ spec:
         carto.run/workload-name: py-gitops
     spec:
       containers:
-      - image: ghcr.io/amagaeru/py-gitops-tap-openshift-w01-s005@sha256:71a1d808561e48fecf96379dfeb79201d9410a861bec861d9406f6ac35dce97e
+      - image: ghcr.io/amagaeru/py-gitops-tap-openshift-w01-s005@sha256:ec057eacacad896940a1acc3a730cf2273d4559b16b4f74646af55b1df2cc13b
         name: workload
         resources: {}
         securityContext:
